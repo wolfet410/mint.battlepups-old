@@ -7,7 +7,7 @@ export const Navigation: FC = () => {
 
     return (
         <nav>
-            <h1>Solana Starter App</h1>
+            <h1>Battle-Pups</h1>
             <div>
                 <WalletMultiButton />
                 {wallet && <WalletDisconnectButton />}
